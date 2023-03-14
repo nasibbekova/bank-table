@@ -13,6 +13,16 @@
             background-color: #f0f0f0;
         }
 
+.logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 180px;
+   margin-top: -20px;
+    /* margin-left: auto; */
+}
+
         .left .nav a {
             position: relative;
             left: 100px;
