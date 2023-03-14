@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Email</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .left .nav a {
+            position: relative;
+            left: 100px;
+            gap: 10px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .right .nav a {
+            position: relative;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            color: #000000;
+            right: 50px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700px;
+            padding-top: 44px;
+        }
+
+        .box {
+            padding-left: 100px;
+        }
+
+        .email-nav a {
+            color: #0047FF;
+            text-decoration: none;
+        }
+
+        .email-nav a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .wallet h3 {
+            padding-top: 50px;
+        }
+
+        .wallet img {
+            padding-top: 20px;
+            padding-bottom: 20PX;
+        }
+
+        .h3 {
+            padding-top: 20px;
+        }
+
+        .more-nav a:hover {
+            color: #000fff;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        table th {
+            text-align: start;
+            color: #B9C0D1;
+            padding-top: 10px;
+        }
+
+        table td{
+            padding-top: 10px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <nav class="nav">
+                <a href="#">Главная</a>
+                <a href="#">Мои кошельки</a>
+                <a href="#">Мои транзации</a>
+            </nav>
+        </div>
+        <div class="right">
+            <nav class="nav">
+                <a href="#">alexadams@google.com</a>
+                <a href="#" class="logo">
+                    <img src="./img/log-out (1) 1.svg" alt="">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="box">
+        <h1>Добро пожаловать, Alex Adams!</h1>
+        <nav class="email-nav">
+            <a href="#">
+                alexadams@google.com
+            </a>
+        </nav>
+        <div class="wallet">
+            <h3>Мои кошельки</h3>
+            <img src="./img/Group 14.png" alt="">
+            <img src="./img/Group 15.png" alt="">
+            <img src="./img/Group 16.png" alt="">
+            <img src="./img/Group 17.png" alt="">
+        </div>
+        <nav class="more-nav">
+            <a href="#">
+                Смотреть все кошельки
+            </a>
+        </nav>
+        <h3 class="h3">Последние транзакции</h3>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Отправлено с кошелька</th>
+                <th>Категория </th>
+                <th>Сумма транзации</th>
+                <th>Когда</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123212</td>
+                <td>VISA</td>
+                <td>Автомобиль</td>
+                <td>414,000,000</td>
+                <td>4 дня назад</td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
