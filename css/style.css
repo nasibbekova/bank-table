@@ -1,0 +1,99 @@
+* {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .left .nav a {
+            position: relative;
+            left: 100px;
+            gap: 10px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .right .nav a {
+            position: relative;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            color: #000000;
+            right: 50px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700px;
+            padding-top: 44px;
+        }
+
+        .box {
+            padding-left: 100px;
+        }
+
+        .email-nav a {
+            color: #0047FF;
+            text-decoration: none;
+        }
+
+        .email-nav a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .wallet h3 {
+            padding-top: 50px;
+        }
+
+        .wallet img {
+            padding-top: 20px;
+            padding-bottom: 20PX;
+        }
+
+        .h3 {
+            padding-top: 20px;
+        }
+
+        .more-nav a:hover {
+            color: #000fff;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        table th {
+            text-align: start;
+            color: #B9C0D1;
+            padding-top: 10px;
+        }
+
+        table td{
+            padding-top: 10px;
+            font-weight: 600;
+        }
